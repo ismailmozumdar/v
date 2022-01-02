@@ -1,0 +1,369 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 100%;
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+	background-attachment: center;
+	background-size: cover;
+	height: 100vh;
+}
+.nabver{
+	width: 1200px;
+	height: 75px;
+	margin: auto;
+}
+.ion{
+	width: 305px;
+	float: left;
+	height: 70px;
+}
+.logo{
+	color: salmon;
+	font-size: 35px;
+	font-family: Arial;
+	padding-left: 10px;
+	float: left;
+	padding-top: 10px;
+}
+.Menu{
+	width: 475px;
+	float: left;
+	height: 70px;
+}
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+ul li{
+	list-style: none;
+	margin-left: 30px;
+	margin-top: 27px;
+	font-size: 18px;
+	transition: 1s;
+}
+ul li a{
+	text-decoration:none ;
+	color: seashell;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 1s;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+ul li a:hover{
+	color: salmon;
+	border-bottom: 2px solid #00ffe7;
+}
+.search{
+	width: 300px;
+	float: left;
+	margin-left:50px;
+}
+.srch{
+	font-family: 'Times New Roman';
+	width: 200px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid salmon;
+	margin-top: 20px;
+	color: #ffffff;
+	border-right: none;
+	font-size: 16px;
+	float: left;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.btn{
+	width: 100px;
+	height: 40px;
+	background: salmon;
+	border: 2px solid salmon;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 15px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.btn a{
+	text-decoration: none;
+	color: #fff;
+}
+.btn:focus{
+	outline: none;
+}
+.srch:focus{
+	outline: none;
+}
+.contant{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	color: #fff;
+	position: relative;
+}
+.contant .per{
+	height:120px;
+	width: 500px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font-family: Arial;
+	letter-spacing: 1.5px;
+	line-height:20px;
+	text-align: justify;
+}
+
+.contant h1{
+	font-family: 'Times New Roman';
+	font-size: 50px;
+	padding-left: 20px;
+	margin-top: 80px;
+	letter-spacing: 2px;
+}
+.contant .join{
+	width: 160px;
+	height: 40px;
+	background: salmon;
+	border: none;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor:pointer;
+	transition: 0.5s;
+
+}
+.contant .join a{
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s;
+}
+.contant .join:hover a{
+	color: salmon;
+}
+.contant .join:hover{
+	background: #00ffe7;
+}
+.contant .one{
+	color: #00ffe7;
+}
+.contant .two{
+	color: salmon;
+}
+.frome{
+	width: 250px;
+	height: 280px;
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+	position: absolute;
+	top: -20px;
+	margin-top:60px;
+	left: 700px;
+	border-radius: 10px;
+	padding: 25px;
+}
+.frome h1{
+	font-family: sans-serif;
+	text-align: center;
+	color: salmon;
+	font-size: 22px;
+	margin: 2px;
+	padding: 10px;
+}
+.frome input{
+	width: 240px;
+	height: 35px;
+	color: salmon;
+	margin-top: 15px;
+	border-bottom: 1px solid salmon;
+	border-top: 1px solid #00ffe7;
+	border-left: none;
+	border-right: none;
+	font-family: sans-serif;
+	background: transparent;
+}
+
+.frome input:focus{
+	outline: none;
+	
+}
+::placeholder{
+	color: #00ffe7;
+}
+.frome .btn1{
+	border-radius: 10px;
+	width: 200px;
+	height: 35px;
+	margin-top: 10px;
+	margin-left: 30px;
+	border: none;
+	transition: 1s;
+	background:#00ffe7;
+}
+.btn1:hover{
+	background: salmon;
+}
+.frome .btn1 a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+.frome p{
+	margin-top: 10px; 
+	text-align: center;
+}
+.frome .sin{
+	text-decoration: none;
+	color: salmon;
+	font-size: 18px;
+	margin-left: 80px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.section{
+	min-height: 80vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:rgb(216, 216, 216);
+	position: relative;
+	font-family: montserrat;
+}
+
+.section::before{
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: salmon;
+	clip-path: inset(47% 0 0 0);
+	z-index: -1;
+}
+.container{
+	max-width:1250px;
+	width: 100%;
+	padding: 80px 0;
+	overflow: hidden;
+	padding: 80px 0;
+}
+.container .main-cards{
+	width: 200%;
+	display: flex;
+	justify-content: space-evenly;
+	transition: all 1s ease;
+}
+
+#two:checked ~ .main-cards{
+	 margin-left: -100%;
+}
+.main-cards .cards{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 20px;
+	width: calc(100% / 2 - 10px);
+}
+.main-cards .cards .card{
+	background: #fff;
+	width: calc(100% / 4 - 10px);
+	padding: 30px 0;
+	border-radius: 20px;
+}
+
+.cards .card .content{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.cards .card .content .img{
+	height: 130px;
+	width: 130px;
+	margin-bottom: 14px;
+	padding: 10px;
+	border-radius:50%;
+}
+.card .content .img img{
+	height: 100%;
+	width: 100%;
+	object-fit:cover;
+	border-radius:50%;
+	background: #fff;
+	border: solid 5px salmon;
+}
+.card .content .details .name{
+	font-size: 20px;
+	font-weight: bold;
+}
+.card .content .details .job{
+	font-size: 20px;
+	color: salmon;
+}
+.card .content .media-icon{
+	display: flex;
+}
+.card .content .media-icon a{
+	color: #fff;
+	margin: 0 4px;
+	border-radius: 50%;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 35px;
+	height: 35px;
+	width: 35px;
+	background: salmon;
+	font-size: 14px;
+	border: 2px solid transparent;
+	transition: all 0.5s ease;
+}
+.card .content .media-icon a:hover{
+	border-color: salmon;
+	background: #C3C3EC;
+	color: salmon;
+}
+.button{
+	display: flex;
+	margin: 20px;
+	justify-content: center;
+}
+.button label{
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	margin: 0 5px;
+	border-radius: 20px;
+	transition: all 0.5s ease;
+
+}
+
+.button label.active{
+	width: 35px;
+}
+
+#one:checked ~ .button label.one{
+	width: 35px;
+}
+#two:checked ~ .button label.two{
+	width: 35px;
+}
+#two:checked ~ .button label.one{
+	width: 15px;
+}
+#one:checked ~ .button label.two{
+	width: 15px;
+}
+ input[type="radio"]{
+	display: none;
+}
+.team{
+	color: #fff;
+	background: salmon;
+}
+.h h1{
+	padding: 10px;
+	text-align: center;
+}

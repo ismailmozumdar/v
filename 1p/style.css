@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+}
+.section-one{
+    width: auto;
+    height: 110vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:block;
+}
+.section-one .logo{
+    height: 80px;
+    width: 270px;
+    float: left;
+    margin-left:80px;
+}
+.section-one .logo h1{
+    font-family: Arial;
+    color: salmon;
+    text-align: center;
+    line-height: 80px;
+
+}
+.section-one .menu{
+    float: left;
+    height: 80px;
+    width: 350px;
+    margin-left: 20px;
+}
+.section-one .menu ul{
+
+}
+.section-one .menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+.section-one .menu ul li a{
+    line-height: 80px;
+    text-decoration: none;
+    color: #fff;
+    font-size:18px;
+    transition: all 2s ease;
+    background: transparent;
+    
+}
+.section-one .menu ul li a:hover{
+    transform: rotate(20deg);
+    color: salmon;
+    
+}
